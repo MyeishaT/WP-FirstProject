@@ -1,0 +1,103 @@
+body > div > header > a > img {
+    width: 100px;
+    height: 90px;
+  }
+
+  body{
+    background: linear-gradient(0deg, rgba(249,113,113,1) 0%, rgba(255,165,143,1) 48%, rgba(246,213,124,1) 100%);
+  }
+
+  *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+
+  /* Footer
+------------------------- */
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(5, 5, 5, 0.1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  /*
+        ####################################################
+        M E D I A  Q U E R I E S
+        ####################################################
+        */
+        
+        /*
+        ::::::::::::::::::::::::::::::::::::::::::::::::::::
+        Bootstrap 4 breakpoints
+        */
+        
+        /* 
+        Extra small devices (portrait phones, less than 576px) 
+        No media query since this is the default in Bootstrap because it is "mobile first"
+        */
+        
+        
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {  
+        
+      }
+      
+      /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+      @media (min-width: 768px) {  
+      
+      }
+      
+      /* Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) { 
+      
+      }
+      
+      /* Extra large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) {  
+          
+      }
+      
+      
+      
+      /*
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::
+      Custom media queries
+      */
+      
+      /* Set width to make card deck cards 100% width */
+      @media (max-width: 950px) { 
+      
+      }

@@ -1,0 +1,58 @@
+body > div > header > a > img {
+    width: 100px;
+    height: 90px;
+  }
+
+  body{
+    background: linear-gradient(0deg, rgba(249,113,113,1) 0%, rgba(255,165,143,1) 48%, rgba(246,213,124,1) 100%);
+  }
+
+img {
+  height: 300px;
+}
+
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* CARDS
+------------------------- */
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .card {
+    display:inline-block;
+    margin: 40px;
+    padding: 10px;
+  }
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
